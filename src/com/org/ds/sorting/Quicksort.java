@@ -12,12 +12,18 @@ public class Quicksort {
         quicksort(0, nums.length - 1);
     }
     
-    public void showArray() {
-        for (int i = 0; i < nums.length; ++i) {
-            System.out.print(nums[i] + "  ");
-        }
-    } 
+    private void quicksort(int low, int high) {
 
+        if (low >= high) {
+            return;
+        }
+
+        int pivotIndex = partition(low, high);
+        quicksort(low, pivotIndex - 1);
+        quicksort(pivotIndex + 1, high);
+
+    }
+    
     private int partition(int low, int high) {
 
         int pivotIndex = (low + high) / 2; // random index maybe better
@@ -37,23 +43,17 @@ public class Quicksort {
         return i;
     }
 
-    private void quicksort(int low, int high) {
-
-        if (low >= high) {
-            return;
-        }
-
-        int pivotIndex = partition(low, high);
-        quicksort(low, pivotIndex - 1);
-        quicksort(pivotIndex + 1, high);
-
-    }
-
     private void swap(int i, int j) {
         int temp = nums[i];
         nums[i] = nums[j];
         nums[j] = temp;
     }
+    
+    public void showArray() {
+        for (int i = 0; i < nums.length; ++i) {
+            System.out.print(nums[i] + "  ");
+        }
+    } 
     
     public static void main(String[] args) {
 
