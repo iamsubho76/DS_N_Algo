@@ -1,4 +1,4 @@
-package com.org.linkedlist.doubly;
+package com.org.ds.linkedlist.doubly;
 
 public class Node {
 	protected int data;

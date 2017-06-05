@@ -1,4 +1,4 @@
-package com.org.linkedlist.single.reverse;
+package com.org.ds.linkedlist.single.reverse;
 
 public class LinkedList {
 

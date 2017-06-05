@@ -1,4 +1,4 @@
-package com.org.linkedlist.single;
+package com.org.ds.linkedlist.single;
 
 public interface List<T> {
     public void insert(T data);
