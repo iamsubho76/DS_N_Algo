@@ -15,8 +15,7 @@ public class CircularLinkedList {
 			tail = newNode;
 			newNode.next = head;
 		} else {
-			Node temp = head;
-			newNode.next = temp;
+			newNode.next = head;
 			head = newNode;
 			tail.next = head;
 		}
@@ -27,14 +26,13 @@ public class CircularLinkedList {
 		if (size == 0) {
 			addNodeAtStart(data);
 		} else {
-			Node n = new Node(data);
-			tail.next = n;
-			tail = n;
+			Node newNode = new Node(data);
+			tail.next = newNode;
+			tail = newNode;
 			tail.next = head;
 			size++;
 		}
-		System.out.println("\nNode " + data
-				+ " is added at the end of the list");
+		System.out.println("\nNode " + data + " is added at the end of the list");
 	}
 
 	public void deleteNodeFromStart() {
