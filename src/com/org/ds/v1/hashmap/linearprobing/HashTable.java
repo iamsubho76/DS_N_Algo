@@ -39,7 +39,7 @@ public class HashTable {
 	}
 
 	private int hashFunction(int key) {
-		//return key % Constants.TABLE_SIZE;
-		return 0;
+		return key % Constants.TABLE_SIZE;
+		//return 0;
 	}
 }

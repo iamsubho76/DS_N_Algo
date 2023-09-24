@@ -6,7 +6,7 @@ public class App {
 	
 		Algorithm algorithm = new Algorithm();
 		
-		algorithm.interpretExpression("( ( 1 + 2 ) * ( 2 + 1 ) )");
+		algorithm.interpretExpression("( ( 1 + 22 ) * ( 2 + 1 ) )");
 
 		algorithm.result();
 	}
