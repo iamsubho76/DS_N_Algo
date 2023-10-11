@@ -2,12 +2,26 @@ package com.org.ds.v1.array.mov_neg_postv_number;
 
 //https://www.geeksforgeeks.org/move-negative-numbers-beginning-positive-end-constant-extra-space/?ref=roadmap
 
+/**
+ * An array contains both positive and negative numbers in random order. Rearrange the array elements so that all negative numbers appear before all positive numbers.
+ * <p>
+ * Examples :
+ * <p>
+ * Input: -12, 11, -13, -5, 6, -7, 5, -3, -6
+ * Output: -12 -13 -5 -7 -3 -6 11 6 5
+ * <p>
+ * Note: Order of elements is not important here.
+ * <p>
+ * Output
+ * -12 -3 -13 -5 -7 6 5 11 11
+ * This is an in-place rearranging algorithm for arranging the positive and negative numbers where the order of elements is not maintained.
+ * Time Complexity: O(N)
+ * Auxiliary Space: O(1)
+ */
 // Java program of the above
 // approach
 
-import java.io.*;
-
-class GFG {
+class MoveNegPostNumber {
 
     // Function to shift all the
 // negative elements on left side

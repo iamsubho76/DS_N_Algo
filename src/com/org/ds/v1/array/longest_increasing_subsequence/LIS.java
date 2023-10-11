@@ -2,6 +2,26 @@ package com.org.ds.v1.array.longest_increasing_subsequence;
 
 //https://www.geeksforgeeks.org/longest-increasing-subsequence-dp-3/
 
+/**
+ * Given an array arr[] of size N, the task is to find the length of the Longest Increasing Subsequence (LIS) i.e., the longest possible subsequence in which the elements of the subsequence are sorted in increasing order.
+ *
+ * LIS
+ * Longest Increasing Subsequence
+ *
+ * Examples:
+ *
+ * Input: arr[] = {3, 10, 2, 1, 20}
+ * Output: 3
+ * Explanation: The longest increasing subsequence is 3, 10, 20
+ *
+ * Input: arr[] = {3, 2}
+ * Output:1
+ * Explanation: The longest increasing subsequences are {3} and {2}
+ *
+ * Input: arr[] = {50, 3, 10, 7, 40, 80}
+ * Output: 4
+ * Explanation: The longest increasing subsequence is {3, 7, 40, 80}
+ */
 // Dynamic Programming Java implementation
 // of LIS problem
 

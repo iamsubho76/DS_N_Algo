@@ -22,15 +22,15 @@ public class Runner {
         } else {
             solution[index] = 1;// select the element
             currSum += A[index];
-            System.out.println("array1 index::" + index);
-            System.out.println("array1 index value::" + A[index]);
-            System.out.println("currSum1::" + currSum);
+//            System.out.println("array1 index::" + index);
+//            System.out.println("array1 index value::" + A[index]);
+//            System.out.println("currSum1::" + currSum);
 
             find(A, currSum, index + 1, sum, solution);
             currSum -= A[index];
-            System.out.println("array2 index::" + index);
-            System.out.println("array2 index value::" + A[index]);
-            System.out.println("currSum2::" + currSum);
+//            System.out.println("array2 index::" + index);
+//            System.out.println("array2 index value::" + A[index]);
+//            System.out.println("currSum2::" + currSum);
 
             solution[index] = 0;// do not select the element
             find(A, currSum, index + 1, sum, solution);

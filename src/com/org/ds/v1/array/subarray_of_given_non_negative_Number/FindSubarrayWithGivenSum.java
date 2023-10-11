@@ -3,7 +3,7 @@ package com.org.ds.v1.array.subarray_of_given_non_negative_Number;
 
 import java.util.*;
 
-public class GFG {
+public class FindSubarrayWithGivenSum {
     public static List<Integer>
     findSubarrayWithGivenSum(List<Integer> arr, int sum) {
         Map<Integer, Integer> map = new HashMap<>();

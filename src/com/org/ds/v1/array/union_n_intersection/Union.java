@@ -5,7 +5,7 @@ package com.org.ds.v1.array.union_n_intersection;
 import java.util.ArrayList;
 import java.util.TreeSet;
 
-class GFG {
+class Union {
 
     // Function to return the union of two arrays
     public static ArrayList<Integer>

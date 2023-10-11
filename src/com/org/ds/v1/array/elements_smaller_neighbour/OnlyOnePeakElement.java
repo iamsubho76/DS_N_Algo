@@ -5,7 +5,7 @@ package com.org.ds.v1.array.elements_smaller_neighbour;
 // A Java program to find a peak
 // element using divide and conquer
 
-class PeakElement {
+class OnlyOnePeakElement {
     // A binary search based function
     // that returns index of a peak element
     static int findPeakUtil(

@@ -79,7 +79,7 @@ class MinimumNumberOfBracketReversalsNeededToMakeAnExpressionBalanced {
 
     // Driver code
     public static void main(String args[]) {
-        String expr = "{{{{}}";
+        String expr = "{{{";
         System.out.println(countMinReversals(expr));
     }
 }

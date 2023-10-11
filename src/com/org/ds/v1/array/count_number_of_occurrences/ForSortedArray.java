@@ -4,7 +4,7 @@ package com.org.ds.v1.array.count_number_of_occurrences;
 
 // Java program to count
 // occurrences of an element
-class GFG {
+class ForSortedArray {
 
     // A recursive binary search
     // function. It returns location
