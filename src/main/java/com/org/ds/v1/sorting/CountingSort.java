@@ -1,5 +1,10 @@
 package com.org.ds.v1.sorting;
 
+/**
+ * Time Complexity: O(n)
+ * Space Complexity: O(n+k) where k is the range of the elements.
+ * https://www.youtube.com/watch?v=ZcUdXuzOzeU&list=PLFdAYMIVJQHNJnCK8XopkeyaZqneVZzrO&index=6
+ */
 public class CountingSort {
 
 	private int[] nums;

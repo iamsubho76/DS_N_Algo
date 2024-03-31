@@ -11,10 +11,10 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class GroupAnagramsTest {
 
-    private final GroupAnagrams groupAnagrams;
+    private final C7_GroupAnagrams groupAnagrams;
 
     public GroupAnagramsTest() {
-        groupAnagrams = new GroupAnagrams();
+        groupAnagrams = new C7_GroupAnagrams();
     }
 
     @Test

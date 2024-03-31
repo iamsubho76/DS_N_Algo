@@ -11,7 +11,7 @@ package com.org.ds.v3.lohia.string;
  * https://www.youtube.com/watch?v=wG_sFhuYcnA&list=PLFdAYMIVJQHNZy3Q4MnLnCBZ9-OxOhaWY&index=4
  *
  */
-public class TwoCharacters {
+public class C4_TwoCharacters {
 
   public static final int NUM_LETTERS = 26;
 

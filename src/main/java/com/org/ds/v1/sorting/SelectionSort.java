@@ -1,5 +1,11 @@
 package com.org.ds.v1.sorting;
 
+/**
+ * Time Complexity: O(n^2)
+ * Space Complexity: O(1)
+ *
+ * https://www.youtube.com/watch?v=RZIrtJ-NgIE&list=PLFdAYMIVJQHNJnCK8XopkeyaZqneVZzrO&index=3
+ */
 public class SelectionSort {
 
 	public static void main(String[] args) {

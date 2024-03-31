@@ -6,15 +6,15 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class MakeAnagramsTest {
 
-  private MakeAnagrams makeAnagrams;
+  private C8_MakeAnagrams makeAnagrams;
 
   public MakeAnagramsTest() {
-    makeAnagrams = new MakeAnagrams();
+    makeAnagrams = new C8_MakeAnagrams();
   }
 
   @Test
   void testMakeAnagrams1() {
-    String s1 = "tars";
+    String s1 = "Test1ng-Leet=code-Q!";
     String s2 = "rat";
 
     assertEquals(1, makeAnagrams.makingAnagrams(s1, s2));

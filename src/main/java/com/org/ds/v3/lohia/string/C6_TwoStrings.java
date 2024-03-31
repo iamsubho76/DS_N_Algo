@@ -13,7 +13,7 @@ import java.util.Set;
  *
  * https://www.youtube.com/watch?v=TqzbP_3AUR8&list=PLFdAYMIVJQHNZy3Q4MnLnCBZ9-OxOhaWY&index=6
  */
-public class TwoStrings {
+public class C6_TwoStrings {
 
   public String twoStrings(String s1, String s2) {
 

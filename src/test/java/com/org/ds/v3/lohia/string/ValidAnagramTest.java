@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class ValidAnagramTest {
 
-  ValidAnagram validAnagram = new ValidAnagram();
+  C3_ValidAnagram validAnagram = new C3_ValidAnagram();
 
   @Test
   void testIsAnagram1() {

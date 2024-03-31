@@ -14,7 +14,7 @@ package com.org.ds.v3.lohia.string;
  * https://www.youtube.com/watch?v=y6ht-CoRI4Q&list=PLFdAYMIVJQHNZy3Q4MnLnCBZ9-OxOhaWY&index=3
  * TC: O(n) SC: O(1)
  */
-class ValidAnagram {
+class C3_ValidAnagram {
 
   public boolean isAnagram(String str1, String str2) {
 

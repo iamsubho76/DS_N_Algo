@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class SherlockAndTheValidStringTest {
 
-  SherlockAndTheValidString sherlockAndTheValidString = new SherlockAndTheValidString();
+  C5_SherlockAndTheValidString sherlockAndTheValidString = new C5_SherlockAndTheValidString();
 
   @Test
   void testIsValid1() {

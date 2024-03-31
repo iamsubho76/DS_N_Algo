@@ -33,36 +33,27 @@ import java.util.Stack;
  */
 
 //TC: O(n/2) SC: O(n)
-public class C30_ValidParenthesses {
 
-    public static void main(String[] args) {
-        String s1 = "()[]{}";
+class C30_ValidParantheses {
 
-        System.out.println(isValid(s1)); //yes
+  boolean isValid(String s) {
 
-        String s2 = "(]";
+    Stack<Character> stack = new Stack<>();
 
-        System.out.println(isValid(s2)); //no
+    for (char c : s.toCharArray()) {
+
+      if (c == '(')
+        stack.push(')');
+      else if (c == '{')
+        stack.push('}');
+      else if (c == '[')
+        stack.push(']');
+
+      else if (stack.isEmpty() || stack.pop() != c)
+        return false;
     }
+    return stack.isEmpty();
 
-    static boolean isValid(String s) {
+  }
 
-        Stack<Character> stack = new Stack<>();
-
-        for (char c : s.toCharArray()) {
-
-            if (c == '(')
-                stack.push(')');
-            else if (c == '{')
-                stack.push('}');
-            else if (c == '[')
-                stack.push(']');
-
-            else if (stack.isEmpty() || stack.pop() != c)
-                return false;
-        }
-        return stack.isEmpty();
-
-    }
 }
-

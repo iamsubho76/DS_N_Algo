@@ -1,5 +1,11 @@
 package com.org.ds.v1.sorting;
 
+/**
+ *
+ * Time Complexity: O(n^2)
+ * Space Complexity: O(1)
+ * https://www.youtube.com/watch?v=xQi-8KcAMNw&list=PLFdAYMIVJQHNJnCK8XopkeyaZqneVZzrO&index=2
+ */
 public class BubbleSort {
 
 	public static void main(String[] args) {

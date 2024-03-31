@@ -1,5 +1,11 @@
 package com.org.ds.v1.sorting;
 
+/**
+ *
+ * Time Complexity: O(n∗logn)
+ * Space Complexity: O(logn)
+ * https://www.youtube.com/watch?v=2SRzQEOaLYw&list=PLFdAYMIVJQHNJnCK8XopkeyaZqneVZzrO&index=5
+ */
 public class Quicksort {
 
     private int[] nums;

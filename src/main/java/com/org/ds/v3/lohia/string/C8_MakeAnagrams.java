@@ -9,7 +9,7 @@ package com.org.ds.v3.lohia.string;
  * https://www.youtube.com/watch?v=33l2qAIgzz4&list=PLFdAYMIVJQHNZy3Q4MnLnCBZ9-OxOhaWY&index=8
  */
 
-public class MakeAnagrams {
+public class C8_MakeAnagrams {
 
   int makingAnagrams(String s1, String s2) {
 

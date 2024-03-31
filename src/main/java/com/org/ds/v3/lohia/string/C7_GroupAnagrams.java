@@ -11,7 +11,7 @@ import java.util.*;
  *
  * https://www.youtube.com/watch?v=C9V66KyZCP8&list=PLFdAYMIVJQHNZy3Q4MnLnCBZ9-OxOhaWY&index=7
  */
-class GroupAnagrams {
+class C7_GroupAnagrams {
 
   public List<List<String>> groupAnagramsCategorizeBySorting(String[] strs) {
 

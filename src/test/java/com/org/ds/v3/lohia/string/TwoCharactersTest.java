@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class TwoCharactersTest {
 
-    private final TwoCharacters twoCharacters = new TwoCharacters();
+    private final C4_TwoCharacters twoCharacters = new C4_TwoCharacters();
 
     @Test
     void testTwoCharacters1() {

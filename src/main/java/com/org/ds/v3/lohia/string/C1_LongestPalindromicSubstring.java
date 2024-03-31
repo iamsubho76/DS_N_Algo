@@ -14,7 +14,7 @@ package com.org.ds.v3.lohia.string;
  *
  * https://www.youtube.com/watch?v=uX0-xyPkR2w&list=PLFdAYMIVJQHNZy3Q4MnLnCBZ9-OxOhaWY&index=2
  */
-public class LongestPalindromicSubstring {
+public class C1_LongestPalindromicSubstring {
 
   String longestPalindrome(String str) {
 

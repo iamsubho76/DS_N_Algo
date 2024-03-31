@@ -24,7 +24,7 @@ import java.util.Map;
  *  https://www.youtube.com/watch?v=tYozGI1Vd_s&list=PLFdAYMIVJQHNZy3Q4MnLnCBZ9-OxOhaWY&index=2
  * TC: O(n) SC: O(1)
  */
-public class FirstUniqueCharacterInAString {
+public class C2_FirstUniqueCharacterInAString {
     public int firstUniqueChar(String str) {
 
         int index = -1;

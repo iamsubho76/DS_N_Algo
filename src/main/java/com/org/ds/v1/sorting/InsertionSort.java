@@ -1,5 +1,14 @@
 package com.org.ds.v1.sorting;
 
+/**
+ *
+ * Running Time:-
+ * Average Case:- O(n2)
+ * Best Case:- O(n)
+ * Worst Case:- O(n2)
+ *
+ * https://www.youtube.com/watch?v=1dxOkfRz6wI&list=PLFdAYMIVJQHNJnCK8XopkeyaZqneVZzrO&index=1&t=1s
+ */
 public class InsertionSort {
 
 	public static void main(String[] args) {

@@ -22,7 +22,7 @@ import java.util.Map;
  */
 
 // This is HARD problem
-public class SherlockAndTheValidString {
+public class C5_SherlockAndTheValidString {
 
   public String isValid(String s) {
 

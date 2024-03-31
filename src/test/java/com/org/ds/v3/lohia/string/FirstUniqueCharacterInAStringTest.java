@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class FirstUniqueCharacterInAStringTest {
 
-  FirstUniqueCharacterInAString firstUniqueCharacterInAString = new FirstUniqueCharacterInAString();
+  C2_FirstUniqueCharacterInAString firstUniqueCharacterInAString = new C2_FirstUniqueCharacterInAString();
 
   @Test
   void testFirstUniqueChar1() {

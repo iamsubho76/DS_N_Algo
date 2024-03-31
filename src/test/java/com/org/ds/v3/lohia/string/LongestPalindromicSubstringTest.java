@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class LongestPalindromicSubstringTest {
 
-  private LongestPalindromicSubstring longestPalindromicSubstring = new LongestPalindromicSubstring();
+  private C1_LongestPalindromicSubstring longestPalindromicSubstring = new C1_LongestPalindromicSubstring();
 
   @Test
   void longestPalindrome1() {
