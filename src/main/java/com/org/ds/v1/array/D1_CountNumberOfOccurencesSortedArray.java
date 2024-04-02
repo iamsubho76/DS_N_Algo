@@ -1,10 +1,10 @@
-package com.org.ds.v1.array.count_number_of_occurrences;
+package com.org.ds.v1.array;
 
 //https://www.geeksforgeeks.org/count-number-of-occurrences-or-frequency-in-a-sorted-array/?ref=roadmap
 
 // Java program to count
 // occurrences of an element
-class ForSortedArray {
+class D1_CountNumberOfOccurencesSortedArray {
 
     // A recursive binary search
     // function. It returns location

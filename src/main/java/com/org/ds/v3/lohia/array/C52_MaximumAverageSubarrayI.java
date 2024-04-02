@@ -20,6 +20,8 @@ package com.org.ds.v3.lohia.array;
  *
 * https://www.youtube.com/watch?v=56TxHMG0qhQ&list=PLFdAYMIVJQHPlQ0vhbV6FVL-1dWNmJcYJ&index=53
  */
+
+// sliding window
 public class C52_MaximumAverageSubarrayI {
 
   double findMaxAverage(int[] nums, int k) {

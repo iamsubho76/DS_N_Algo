@@ -34,6 +34,8 @@ import java.util.*;
  *
  * https://www.youtube.com/watch?v=cRBSOz49fQk&list=PLFdAYMIVJQHPlQ0vhbV6FVL-1dWNmJcYJ&index=47
  */
+
+// two pointer
 public class C46_ThreeSum {
 
   List<List<Integer>> threeSum(int[] arr) {

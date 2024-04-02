@@ -18,6 +18,8 @@ package com.org.ds.v3.lohia.array;
  *
  * https://www.youtube.com/watch?v=RhPqIIOUiS8&list=PLFdAYMIVJQHPlQ0vhbV6FVL-1dWNmJcYJ&index=50
  */
+
+// log(m*n)
 public class C49_SearchA2DMatrix {
 
   boolean searchMatrix(int[][] matrix, int target) {

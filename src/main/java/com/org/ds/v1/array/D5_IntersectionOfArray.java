@@ -1,11 +1,11 @@
-package com.org.ds.v1.array.union_n_intersection;
+package com.org.ds.v1.array;
 //https://www.geeksforgeeks.org/union-and-intersection-of-two-sorted-arrays-2/?ref=roadmap
 // Java code to implement the approach
 
 import java.util.ArrayList;
 import java.util.TreeSet;
 
-class Union {
+class D5_IntersectionOfArray {
 
     // Function to return the union of two arrays
     public static ArrayList<Integer>

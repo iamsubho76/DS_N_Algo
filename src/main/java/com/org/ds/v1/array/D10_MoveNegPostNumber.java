@@ -1,4 +1,4 @@
-package com.org.ds.v1.array.mov_neg_postv_number;
+package com.org.ds.v1.array;
 
 //https://www.geeksforgeeks.org/move-negative-numbers-beginning-positive-end-constant-extra-space/?ref=roadmap
 
@@ -21,7 +21,7 @@ package com.org.ds.v1.array.mov_neg_postv_number;
 // Java program of the above
 // approach
 
-class MoveNegPostNumber {
+class D10_MoveNegPostNumber {
 
     // Function to shift all the
 // negative elements on left side

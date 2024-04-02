@@ -1,4 +1,4 @@
-package com.org.ds.v1.array.reverse;
+package com.org.ds.v1.array;
 
 // https://www.geeksforgeeks.org/write-a-program-to-reverse-an-array-or-string/?ref=roadmap
 
@@ -18,7 +18,7 @@ package com.org.ds.v1.array.reverse;
  * Time Complexity: O(n)
  * Auxiliary Space: O(n)
  */
-public class ReverseInRecursiveWay {
+public class D9_ReverseInRecursiveWay {
 
     /* Function to reverse arr[] from
      start to end*/

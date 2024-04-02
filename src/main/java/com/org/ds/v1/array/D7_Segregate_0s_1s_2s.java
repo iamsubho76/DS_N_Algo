@@ -1,9 +1,7 @@
-package com.org.ds.v1.array.sort_0s_1s_2s;
+package com.org.ds.v1.array;
 //https://www.geeksforgeeks.org/sort-an-array-of-0s-1s-and-2s/?ref=roadmap
 
 // Java program to sort an array of 0, 1 and 2
-
-import java.io.*;
 
 /**
  * Sort an array of 0s, 1s, and 2s using the Pointer Approach:
@@ -84,7 +82,7 @@ import java.io.*;
  * If the element is 2 then swap the element with the element at index high and update high = high – 1 and update i = i – 1. As the swapped element is not processed
  * Print the array.
  */
-class countzot {
+class D7_Segregate_0s_1s_2s {
 
     // Sort the input array, the array is assumed to
     // have values in {0, 1, 2}

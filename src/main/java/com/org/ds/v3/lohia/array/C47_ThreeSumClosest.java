@@ -26,6 +26,8 @@ import java.util.*;
  *
  * https://www.youtube.com/watch?v=uSpJQa6MRZ8&list=PLFdAYMIVJQHPlQ0vhbV6FVL-1dWNmJcYJ&index=48
  */
+
+//two pointer
 public class C47_ThreeSumClosest {
 
   int threeSumClosest(int[] arr, int target) {

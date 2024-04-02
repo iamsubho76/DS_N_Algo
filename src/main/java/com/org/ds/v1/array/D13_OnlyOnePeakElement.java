@@ -1,11 +1,11 @@
-package com.org.ds.v1.array.elements_smaller_neighbour;
+package com.org.ds.v1.array;
 
 //https://www.geeksforgeeks.org/find-a-peak-in-a-given-array/?ref=roadmap
 
 // A Java program to find a peak
 // element using divide and conquer
 
-class OnlyOnePeakElement {
+class D13_OnlyOnePeakElement {
     // A binary search based function
     // that returns index of a peak element
     static int findPeakUtil(

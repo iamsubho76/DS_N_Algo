@@ -1,4 +1,4 @@
-package com.org.ds.v1.array.max_min_element;
+package com.org.ds.v1.array;
 
 //https://www.geeksforgeeks.org/program-find-minimum-maximum-element-array/?ref=roadmap
 
@@ -14,7 +14,7 @@ package com.org.ds.v1.array.max_min_element;
 // (or maximum) element
 // in an array.
 
-public class FIndMinMax {
+public class D11_FIndMinMax {
 
     static int getMin(int[] arr, int i, int n) {
         // If there is single element, return it.

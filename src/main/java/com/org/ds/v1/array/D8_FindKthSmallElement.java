@@ -1,4 +1,4 @@
-package com.org.ds.v1.array.smallest_n_largest_in_unsorted_array;
+package com.org.ds.v1.array;
 //https://www.geeksforgeeks.org/kth-smallest-largest-element-in-unsorted-array/?ref=roadmap
 
 /**
@@ -20,7 +20,7 @@ package com.org.ds.v1.array.smallest_n_largest_in_unsorted_array;
  * Time Complexity: O(N2) in worst case and O(N) on average. However if we randomly choose pivots, the probability of worst case could become very less.
  * Auxiliary Space: O(N)
  */
-class FindKthSmallElement {
+class D8_FindKthSmallElement {
     // Standard partition process of QuickSort.
     // It considers the last element as pivot
     // and moves all smaller element to left of

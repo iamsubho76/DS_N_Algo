@@ -1,7 +1,7 @@
-package com.org.ds.v1.array.elements_smaller_neighbour;// Java implementation of the approach
+package com.org.ds.v1.array;// Java implementation of the approach
 
 //https://www.geeksforgeeks.org/print-all-the-peaks-and-troughs-in-an-array-of-integers/
-class AllPeakElements
+class D12_AllPeakElements
 {
 
 	// Function that returns true if num is

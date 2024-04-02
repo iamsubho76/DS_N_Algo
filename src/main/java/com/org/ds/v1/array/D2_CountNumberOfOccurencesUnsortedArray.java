@@ -1,4 +1,4 @@
-package com.org.ds.v1.array.count_number_of_occurrences;
+package com.org.ds.v1.array;
 
 /**
  * Complexity Analysis:
@@ -12,10 +12,10 @@ package com.org.ds.v1.array.count_number_of_occurrences;
 // Java program to print frequencies of all array
 // elements in O(1) extra space and O(n) time
 
-public class ForUnsortedArray {
+public class D2_CountNumberOfOccurencesUnsortedArray {
     // Driver program to test above functions
     public static void main(String[] args) {
-        ForUnsortedArray count = new ForUnsortedArray();
+        D2_CountNumberOfOccurencesUnsortedArray count = new D2_CountNumberOfOccurencesUnsortedArray();
         int[] arr = {2, 3, 3, 2, 5};
         count.findCounts(arr, arr.length);
 

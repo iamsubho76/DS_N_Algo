@@ -1,9 +1,9 @@
-package com.org.ds.v1.array.subarray_of_given_non_negative_Number;
+package com.org.ds.v1.array;
 //https://www.geeksforgeeks.org/find-subarray-with-given-sum/?ref=roadmap
 
 import java.util.*;
 
-public class FindSubarrayWithGivenSum {
+public class D6_FindSubarrayForGivenSum {
     public static List<Integer>
     findSubarrayWithGivenSum(List<Integer> arr, int sum) {
         Map<Integer, Integer> map = new HashMap<>();

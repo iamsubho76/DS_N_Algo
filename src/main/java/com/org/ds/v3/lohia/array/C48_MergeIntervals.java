@@ -25,6 +25,7 @@ import java.util.List;
  *
  * https://www.youtube.com/watch?v=uSpJQa6MRZ8&list=PLFdAYMIVJQHPlQ0vhbV6FVL-1dWNmJcYJ&index=48
  */
+// On(nlogn) & O(n)
 class C48_MergeIntervals {
 
   int[][] merge(int[][] intervals) {

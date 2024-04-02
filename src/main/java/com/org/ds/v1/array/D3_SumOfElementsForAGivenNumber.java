@@ -1,8 +1,8 @@
-package com.org.ds.v1.array.sum_of_elements_for_given_number;
+package com.org.ds.v1.array;
 
 import java.util.*;
 
-public class Runner {
+public class D3_SumOfElementsForAGivenNumber {
 
     public static void find(int[] A, int currSum, int index, int sum, int[] solution) {
         if (currSum == sum) {

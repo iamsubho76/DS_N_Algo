@@ -1,6 +1,4 @@
-package com.org.ds.v1.array.first_and_last_positions_element_sorted_array;
-
-import java.io.*;
+package com.org.ds.v1.array;
 
 //https://www.geeksforgeeks.org/find-first-and-last-positions-of-an-element-in-a-sorted-array/
 
@@ -46,7 +44,7 @@ import java.io.*;
  * <p>
  * Below is the implementation of the above approach:
  */
-public class FindFirstLastPositionsElementSortedArray {
+public class D4_FindFirstLastPositionsElementSortedArray {
     /* if x is present in arr[] then returns the index of
     FIRST occurrence of x in arr[0..n-1], otherwise
     returns -1 */
