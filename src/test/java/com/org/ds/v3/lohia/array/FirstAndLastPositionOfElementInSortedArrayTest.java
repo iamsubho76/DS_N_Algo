@@ -6,15 +6,15 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class FirstAndLastPositionOfElementInSortedArrayTest {
 
-  private final C18_FirstAndLastPositionOfElementInSortedArray firstAndLastPositionOfElementInSortedArray;
+  private final C18_1_FirstAndLastPositionOfElementInSortedArray firstAndLastPositionOfElementInSortedArray;
 
   FirstAndLastPositionOfElementInSortedArrayTest() {
-    firstAndLastPositionOfElementInSortedArray = new C18_FirstAndLastPositionOfElementInSortedArray();
+    firstAndLastPositionOfElementInSortedArray = new C18_1_FirstAndLastPositionOfElementInSortedArray();
   }
 
   @Test
   void testSearchRange1() {
-    int[] nums = {5, 7, 7, 8, 8, 10};
+    int[] nums = {8,5, 2,1,7, 7, 8, 8, 10};
     int target = 8;
 
     int[] expected = {3, 4};

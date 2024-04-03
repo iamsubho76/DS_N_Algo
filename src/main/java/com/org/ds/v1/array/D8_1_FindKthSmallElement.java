@@ -20,7 +20,7 @@ package com.org.ds.v1.array;
  * Time Complexity: O(N2) in worst case and O(N) on average. However if we randomly choose pivots, the probability of worst case could become very less.
  * Auxiliary Space: O(N)
  */
-class D8_FindKthSmallElement {
+class D8_1_FindKthSmallElement {
     // Standard partition process of QuickSort.
     // It considers the last element as pivot
     // and moves all smaller element to left of

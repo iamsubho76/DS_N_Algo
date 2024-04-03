@@ -6,7 +6,7 @@ import java.util.List;
  * Created by nikoo28 on 2/14/21 1:08 AM
  */
 
-public class C12_BirthdayCakeCandles {
+public class C12_DF_BirthdayCakeCandles {
 
   int birthdayCakeCandles(List<Integer> candles) {
 

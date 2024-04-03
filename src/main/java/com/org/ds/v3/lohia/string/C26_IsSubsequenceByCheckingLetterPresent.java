@@ -4,7 +4,9 @@ package com.org.ds.v3.lohia.string;
  * https://leetcode.com/problems/is-subsequence/description/
  * Given two strings s and t, return true if s is a subsequence of t, or false otherwise.
  *
- * A subsequence of a string is a new string that is formed from the original string by deleting some (can be none) of the characters without disturbing the relative positions of the remaining characters. (i.e., "ace" is a subsequence of "abcde" while "aec" is not).
+ * A subsequence of a string is a new string that is formed from the original string by
+ * deleting some (can be none) of the characters without disturbing the relative positions
+ * of the remaining characters. (i.e., "ace" is a subsequence of "abcde" while "aec" is not).
  *
  *
  *
@@ -19,7 +21,7 @@ package com.org.ds.v3.lohia.string;
  *
  * https://www.youtube.com/watch?v=Gkz3SwtdSes&list=PLFdAYMIVJQHNZy3Q4MnLnCBZ9-OxOhaWY&index=26
  */
-public class C26_IsSubsequence {
+public class C26_IsSubsequenceByCheckingLetterPresent {
 
   boolean isSubsequence(String str1, String str2) {
 

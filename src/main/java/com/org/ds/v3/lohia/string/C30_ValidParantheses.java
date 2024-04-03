@@ -44,7 +44,7 @@ class C30_ValidParantheses {
 
       if (c == '(')
         stack.push(')');
-      else if (c == '{')
+       else if (c == '{')
         stack.push('}');
       else if (c == '[')
         stack.push(']');

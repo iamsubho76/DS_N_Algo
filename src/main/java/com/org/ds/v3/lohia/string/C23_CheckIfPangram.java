@@ -24,6 +24,7 @@ import java.util.Set;
  *
  * https://www.youtube.com/watch?v=reddjqY1gpE&list=PLFdAYMIVJQHNZy3Q4MnLnCBZ9-OxOhaWY&index=23
  */
+//It means the sentence should contain all 26 english alphabet
 public class C23_CheckIfPangram {
 
   boolean checkIfPangram(String sentence) {

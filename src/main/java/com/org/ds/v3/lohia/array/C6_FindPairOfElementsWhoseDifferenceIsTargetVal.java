@@ -3,7 +3,8 @@ package com.org.ds.v3.lohia.array;
 import java.util.Arrays;
 
 /**
- * Question: Given an array of integers, find the number of pairs of array elements that have a difference equal to the target value.
+ * Question: Given an array of integers, find the number of pairs of array elements
+ * that have a difference equal to the target value.
  *
  * Example:
  *
@@ -16,7 +17,7 @@ import java.util.Arrays;
  * https://www.youtube.com/watch?v=lGDyeD597RA&list=PLFdAYMIVJQHPlQ0vhbV6FVL-1dWNmJcYJ&index=7
  */
 
-public class C6_Pairs {
+public class C6_FindPairOfElementsWhoseDifferenceIsTargetVal {
 
   private boolean binarySearch(int[] arr, int numberToFind) {
     int left = 0, right = arr.length - 1;
@@ -31,7 +32,7 @@ public class C6_Pairs {
 
   public int pairs(int k, int[] arr) {
 
-    // Sort the array
+    // Sort the array with O(n log(n))
     Arrays.sort(arr);
 
     int result = 0;

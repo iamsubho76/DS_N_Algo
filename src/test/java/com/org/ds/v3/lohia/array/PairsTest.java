@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class PairsTest {
 
-  C6_Pairs pairs = new C6_Pairs();
+  C6_FindPairOfElementsWhoseDifferenceIsTargetVal pairs = new C6_FindPairOfElementsWhoseDifferenceIsTargetVal();
 
   @Test
   void testPairs1() {

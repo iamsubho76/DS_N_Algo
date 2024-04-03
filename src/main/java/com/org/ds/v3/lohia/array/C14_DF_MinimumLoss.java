@@ -44,7 +44,7 @@ import java.util.*;
  */
 
 //this is HARD problem
-public class C14_MinimumLoss {
+public class  C14_DF_MinimumLoss {
 
   public int minimumLoss(List<Long> prices) {
 

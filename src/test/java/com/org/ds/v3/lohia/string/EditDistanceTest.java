@@ -6,10 +6,10 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class EditDistanceTest {
 
-  private final C24_EditDistance editDistance;
+  private final C24_DF_EditDistance editDistance;
 
   EditDistanceTest() {
-    editDistance = new C24_EditDistance();
+    editDistance = new C24_DF_EditDistance();
   }
 
   @Test

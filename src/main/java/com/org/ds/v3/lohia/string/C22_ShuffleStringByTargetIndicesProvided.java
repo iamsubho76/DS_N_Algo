@@ -20,7 +20,7 @@ package com.org.ds.v3.lohia.string;
  *
  * https://www.youtube.com/watch?v=1A0rqX1Xp2E&list=PLFdAYMIVJQHNZy3Q4MnLnCBZ9-OxOhaWY&index=22
  */
-public class C22_ShuffleString {
+public class C22_ShuffleStringByTargetIndicesProvided {
 
   String restoreString(String s, int[] indices) {
 

@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class MissingNumbersTest {
 
-  C5_MissingNumbers missingNumbers = new C5_MissingNumbers();
+  C5_FindMissingNumbersInTwoArrays missingNumbers = new C5_FindMissingNumbersInTwoArrays();
 
   @Test
   void testMissingNumbers1() {

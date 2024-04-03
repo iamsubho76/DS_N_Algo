@@ -6,10 +6,10 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class LongestCommonSubstringTest {
 
-  private final C27_LongestCommonSubstring longestCommonSubstring;
+  private final C27_LongestCommonContinousSubstringBtwTwoStrinsg longestCommonSubstring;
 
   LongestCommonSubstringTest() {
-    longestCommonSubstring = new C27_LongestCommonSubstring();
+    longestCommonSubstring = new C27_LongestCommonContinousSubstringBtwTwoStrinsg();
   }
 
   @Test

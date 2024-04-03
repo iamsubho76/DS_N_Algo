@@ -28,7 +28,9 @@ package com.org.ds.v3.lohia.array;
  *
  * https://www.youtube.com/watch?v=iXLMMbdjeNM&list=PLFdAYMIVJQHPlQ0vhbV6FVL-1dWNmJcYJ&index=11
  */
-class C10_SearchInRotatedSortedArray {
+
+//This is HARD Problem
+class C10_DF_SearchInRotatedSortedArray {
 
   private int findRotationIndex(int[] nums) {
 

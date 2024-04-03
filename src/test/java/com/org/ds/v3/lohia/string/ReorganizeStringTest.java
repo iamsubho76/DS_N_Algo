@@ -6,10 +6,10 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class ReorganizeStringTest {
 
-  private final C25_ReorganizeString reorganizeString;
+  private final C25_RearrangeSuchTwoAdjacentCharacterNotSame reorganizeString;
 
   ReorganizeStringTest() {
-    reorganizeString = new C25_ReorganizeString();
+    reorganizeString = new C25_RearrangeSuchTwoAdjacentCharacterNotSame();
   }
 
   @Test

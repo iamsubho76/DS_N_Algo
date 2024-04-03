@@ -1,8 +1,6 @@
 package com.org.ds.v1.array;
 
-import java.util.*;
-
-public class D3_SumOfElementsForAGivenNumber {
+public class D3_FindAllSubArrForTheGivenNumber {
 
     public static void find(int[] A, int currSum, int index, int sum, int[] solution) {
         if (currSum == sum) {
@@ -40,17 +38,20 @@ public class D3_SumOfElementsForAGivenNumber {
 
 
     public static void main(String args[]) {
-        Scanner in = new Scanner(System.in);
-        System.out.println("How many integer you have to insert: ");
-        int n = in.nextInt();
-        int[] A = new int[n];
-        System.out.println("\nEnter elements in Array:\n ");
-        for (int i = 0; i < A.length; i++) {
-            A[i] = in.nextInt();
-        }
-        System.out.println("\nEnter required sum: ");
-        int sum = in.nextInt();
+//        Scanner in = new Scanner(System.in);
+//        System.out.println("How many integer you have to insert: ");
+//        int n = in.nextInt();
+//        int[] A = new int[n];
+//        System.out.println("\nEnter elements in Array:\n ");
+//        for (int i = 0; i < A.length; i++) {
+//            A[i] = in.nextInt();
+//        }
+//        System.out.println("\nEnter required sum: ");
+//        int sum = in.nextInt();
+        int[] A = {-2,1,-3,4,-1,2,1,-5,4};
+        int sum = 6;
         int[] solution = new int[A.length];
+
         find(A, 0, 0, sum, solution);
     }
 }

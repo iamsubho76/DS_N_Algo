@@ -24,7 +24,7 @@ package com.org.ds.v3.lohia.array;
  *
  * https://www.youtube.com/watch?v=bvaYNDKp830&list=PLFdAYMIVJQHPlQ0vhbV6FVL-1dWNmJcYJ&index=18
  */
-public class C18_FirstAndLastPositionOfElementInSortedArray {
+public class C18_1_FirstAndLastPositionOfElementInSortedArray {
 
   public int[] searchRange(int[] nums, int target) {
 

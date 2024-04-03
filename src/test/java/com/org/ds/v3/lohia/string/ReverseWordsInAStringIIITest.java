@@ -6,10 +6,10 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class ReverseWordsInAStringIIITest {
 
-  private final C31_ReverseWordsInAStringIII reverseWordsInAStringIII;
+  private final C31_ReverseWordsInPlaceOfAStringIII reverseWordsInAStringIII;
 
   ReverseWordsInAStringIIITest() {
-    reverseWordsInAStringIII = new C31_ReverseWordsInAStringIII();
+    reverseWordsInAStringIII = new C31_ReverseWordsInPlaceOfAStringIII();
   }
 
   @Test

@@ -58,6 +58,7 @@ public class C1_LongestPalindromicSubstring {
       }
     }
 
+    System.out.println("Longest Palindromic Substring: " + LPS);
     return LPS;
   }
 

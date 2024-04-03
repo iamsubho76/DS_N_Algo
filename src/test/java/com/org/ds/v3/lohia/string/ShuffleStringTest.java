@@ -6,10 +6,10 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class ShuffleStringTest {
 
-  private final C22_ShuffleString shuffleString;
+  private final C22_ShuffleStringByTargetIndicesProvided shuffleString;
 
   ShuffleStringTest() {
-    shuffleString = new C22_ShuffleString();
+    shuffleString = new C22_ShuffleStringByTargetIndicesProvided();
   }
 
   @Test

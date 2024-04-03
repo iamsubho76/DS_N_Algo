@@ -6,10 +6,10 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class IsSubsequenceTest {
 
-  private final C26_IsSubsequence isSubsequence;
+  private final C26_IsSubsequenceByCheckingLetterPresent isSubsequence;
 
   IsSubsequenceTest() {
-    isSubsequence = new C26_IsSubsequence();
+    isSubsequence = new C26_IsSubsequenceByCheckingLetterPresent();
   }
 
   @Test

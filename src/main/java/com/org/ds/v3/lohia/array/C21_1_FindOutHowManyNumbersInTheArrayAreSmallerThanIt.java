@@ -1,7 +1,9 @@
 package com.org.ds.v3.lohia.array;
 
 /**
- * Given the array nums, for each nums[i] find out how many numbers in the array are smaller than it. That is, for each nums[i] you have to count the number of valid j's such that j != i and nums[j] < nums[i].
+ * Given the array nums, for each nums[i] find out how many numbers in
+ * the array are smaller than it. That is, for each nums[i] you have
+ * to count the number of valid j's such that j != i and nums[j] < nums[i].
  *
  * Return the answer in an array.
  *
@@ -28,7 +30,7 @@ package com.org.ds.v3.lohia.array;
  *
  * https://www.youtube.com/watch?v=C5u_hvbq1qQ&list=PLFdAYMIVJQHPlQ0vhbV6FVL-1dWNmJcYJ&index=22
  */
-public class C21_NumbersSmallerThanTheCurrentNumber {
+public class C21_1_FindOutHowManyNumbersInTheArrayAreSmallerThanIt {
 
   public int[] smallerNumbersThanCurrent(int[] nums) {
 

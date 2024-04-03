@@ -6,10 +6,10 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class ContainerWithMostWaterTest {
 
-  private final C16_ContainerWithMostWater containerWithMostWater;
+  private final C16_DF_ContainerWithMostWater containerWithMostWater;
 
   public ContainerWithMostWaterTest() {
-    containerWithMostWater = new C16_ContainerWithMostWater();
+    containerWithMostWater = new C16_DF_ContainerWithMostWater();
   }
 
   @Test

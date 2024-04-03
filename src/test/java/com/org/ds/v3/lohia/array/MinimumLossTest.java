@@ -10,10 +10,10 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class MinimumLossTest {
 
-  private C14_MinimumLoss minimumLoss;
+  private C14_DF_MinimumLoss minimumLoss;
 
   public MinimumLossTest() {
-    minimumLoss = new C14_MinimumLoss();
+    minimumLoss = new C14_DF_MinimumLoss();
   }
 
   @Test

@@ -1,7 +1,8 @@
 package com.org.ds.v3.lohia.array;
 
 /**
- * Question: You are given an array of integers. After a left rotation of k times, find the resultant array.
+ * Question: You are given an array of integers.
+ * After a left rotation of k times, find the resultant array.
  *
  * Example 1:
  * Input: arr [ ] = {1, 2, 3, 4, 5}, size = 5, k = 2
@@ -14,7 +15,7 @@ package com.org.ds.v3.lohia.array;
  * https://www.youtube.com/watch?v=sIzV1SDc-yQ&list=PLFdAYMIVJQHPlQ0vhbV6FVL-1dWNmJcYJ&index=4
  */
 // This is HARD problem
-public class C3_LeftRotation {
+public class C3_kTimesLeftRotation {
 
   // Helper function to reverse an array from start index to end index
   public void reverse(int[] nums, int start, int end) {

@@ -19,7 +19,7 @@ package com.org.ds.v3.lohia.string;
  * https://www.youtube.com/watch?v=hj-HDHwifWs&list=PLFdAYMIVJQHNZy3Q4MnLnCBZ9-OxOhaWY&index=27
  */
 //Using DP
-public class C27_LongestCommonSubstring {
+public class C27_LongestCommonContinousSubstringBtwTwoStrinsg {
 
   int longestCommonSubstring(String m, String n) {
     char[] str1 = m.toCharArray();

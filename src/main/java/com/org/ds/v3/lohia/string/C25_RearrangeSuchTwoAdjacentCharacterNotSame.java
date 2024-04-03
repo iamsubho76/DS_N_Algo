@@ -3,7 +3,8 @@ package com.org.ds.v3.lohia.string;
 /**
  * https://leetcode.com/problems/reorganize-string/description/
  *
- * Given a string s, rearrange the characters of s so that any two adjacent characters are not the same.
+ * Given a string s, rearrange the characters of s so that any two adjacent characters
+ * are not the same.
  *
  * Return any possible rearrangement of s or return "" if not possible.
  *
@@ -18,7 +19,7 @@ package com.org.ds.v3.lohia.string;
  *
  * https://www.youtube.com/watch?v=wZENBuWh-C0&list=PLFdAYMIVJQHNZy3Q4MnLnCBZ9-OxOhaWY&index=25
  */
-public class C25_ReorganizeString {
+public class C25_RearrangeSuchTwoAdjacentCharacterNotSame {
 
   String reorganizeString(String str) {
     int[] hash = new int[26];

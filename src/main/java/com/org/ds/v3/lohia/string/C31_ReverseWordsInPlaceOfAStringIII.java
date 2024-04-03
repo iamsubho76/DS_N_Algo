@@ -18,7 +18,7 @@ package com.org.ds.v3.lohia.string;
  *
  * https://www.youtube.com/watch?v=3X-NqtP_kKQ&list=PLFdAYMIVJQHNZy3Q4MnLnCBZ9-OxOhaWY&index=31
  */
-public class C31_ReverseWordsInAStringIII {
+public class C31_ReverseWordsInPlaceOfAStringIII {
 
   String reverseWords(String s) {
 

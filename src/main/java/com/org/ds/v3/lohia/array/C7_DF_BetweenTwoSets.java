@@ -3,7 +3,8 @@ package com.org.ds.v3.lohia.array;
 import java.util.List;
 
 /**
- * Question: You will be given two arrays of integers and asked to determine all integers between two sets that satisfy the following two conditions:
+ * Question: You will be given two arrays of integers and asked to determine all
+ * integers between two sets that satisfy the following two conditions:
  * – The elements of the first array are all factors of the integer being considered
  * – The integer being considered is a factor of all elements of the second array
  *
@@ -17,7 +18,8 @@ import java.util.List;
  * https://www.youtube.com/watch?v=-c_V4fQ2mKU&list=PLFdAYMIVJQHPlQ0vhbV6FVL-1dWNmJcYJ&index=8
  */
 
-public class C7_BetweenTwoSets {
+//This is a hard problem
+public class C7_DF_BetweenTwoSets {
 
   /*
    * Complete the 'getTotalX' function below.

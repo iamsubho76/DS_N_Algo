@@ -19,10 +19,10 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class BirthdayCakeCandlesTest {
 
-  private final C12_BirthdayCakeCandles birthdayCakeCandles;
+  private final C12_DF_BirthdayCakeCandles birthdayCakeCandles;
 
   public BirthdayCakeCandlesTest() {
-    birthdayCakeCandles = new C12_BirthdayCakeCandles();
+    birthdayCakeCandles = new C12_DF_BirthdayCakeCandles();
   }
 
   @Test

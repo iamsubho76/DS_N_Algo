@@ -16,7 +16,7 @@ import java.util.TreeMap;
  * https://www.youtube.com/watch?v=1g3WmjMG2OM&list=PLFdAYMIVJQHPlQ0vhbV6FVL-1dWNmJcYJ&index=6
  */
 
-public class C5_MissingNumbers {
+public class C5_FindMissingNumbersInTwoArrays {
 
   public int[] missingNumbers(int[] arr, int[] brr) {
 

@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class LeftRotationTest {
 
-  C3_LeftRotation leftRotation = new C3_LeftRotation();
+  C3_kTimesLeftRotation leftRotation = new C3_kTimesLeftRotation();
 
   @Test
   void rotateLeft1() {

@@ -24,7 +24,7 @@ package com.org.ds.v3.lohia.array;
  * https://www.youtube.com/watch?v=w7ftYsZtIbs&list=PLFdAYMIVJQHPlQ0vhbV6FVL-1dWNmJcYJ&index=16
  */
 
-class C16_ContainerWithMostWater {
+class C16_DF_ContainerWithMostWater {
 
   public int maxArea(int[] height) {
 

@@ -31,7 +31,7 @@ import java.util.Arrays;
  */
 
 //This is Hard Problem using DP
-public class C13_Equal {
+public class C13_DF_Equal {
 
   int equal(int[] arr) {
 

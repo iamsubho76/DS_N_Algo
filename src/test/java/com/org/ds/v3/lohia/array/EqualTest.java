@@ -6,10 +6,10 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class EqualTest {
 
-  private final C13_Equal equal;
+  private final C13_DF_Equal equal;
 
   public EqualTest() {
-    equal = new C13_Equal();
+    equal = new C13_DF_Equal();
   }
 
   @Test

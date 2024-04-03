@@ -6,10 +6,10 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class NumbersSmallerThanTheCurrentNumberTest {
 
-  private final C21_NumbersSmallerThanTheCurrentNumber numbersSmallerThanTheCurrentNumber;
+  private final C21_1_FindOutHowManyNumbersInTheArrayAreSmallerThanIt numbersSmallerThanTheCurrentNumber;
 
   NumbersSmallerThanTheCurrentNumberTest() {
-    numbersSmallerThanTheCurrentNumber = new C21_NumbersSmallerThanTheCurrentNumber();
+    numbersSmallerThanTheCurrentNumber = new C21_1_FindOutHowManyNumbersInTheArrayAreSmallerThanIt();
   }
 
   @Test

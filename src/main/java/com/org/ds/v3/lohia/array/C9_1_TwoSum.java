@@ -30,7 +30,8 @@ import java.util.*;
  * https://www.youtube.com/watch?v=7jDS9KQEDbI&list=PLFdAYMIVJQHPlQ0vhbV6FVL-1dWNmJcYJ&index=10
  */
 
-class C9_TwoSum {
+// best way to solve using Two-Pointer, instead of other approaches
+class C9_1_TwoSum {
 
   int[] twoSumBruteForce(int[] nums, int target) {
 
@@ -41,6 +42,22 @@ class C9_TwoSum {
       }
     }
     throw new IllegalArgumentException("No two sum solution");
+  }
+
+
+  public int[] twoSumUsingTwoPointer(int[] input, int target) {
+    Arrays.sort(input);
+    int i = 0, j = input.length - 1;
+    while (i < j) {
+      int diff = target - (input[i] + input[j]);
+      if (diff < 0)
+        j--;
+      else if (diff > 0)
+        i++;
+      else
+        return new int[]{i, j};
+    }
+    return new int[]{-1, -1};
   }
 
   int[] twoSumSorting(int[] nums, int target) {

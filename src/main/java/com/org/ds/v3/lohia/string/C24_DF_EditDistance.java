@@ -36,7 +36,7 @@ package com.org.ds.v3.lohia.string;
 
 // This one done using DP
   // This is HARD problem
-public class C24_EditDistance {
+public class C24_DF_EditDistance {
 
   int minDistance(String word1, String word2) {
 

@@ -9,7 +9,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class BetweenTwoSetsTest {
 
-  C7_BetweenTwoSets betweenTwoSets = new C7_BetweenTwoSets();
+  C7_DF_BetweenTwoSets betweenTwoSets = new C7_DF_BetweenTwoSets();
 
   @Test
   void testGetTotalX1() {

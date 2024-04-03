@@ -6,10 +6,10 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class SearchInRotatedSortedArrayTest {
 
-  private C10_SearchInRotatedSortedArray searchInRotatedSortedArray;
+  private C10_DF_SearchInRotatedSortedArray searchInRotatedSortedArray;
 
   SearchInRotatedSortedArrayTest() {
-    searchInRotatedSortedArray = new C10_SearchInRotatedSortedArray();
+    searchInRotatedSortedArray = new C10_DF_SearchInRotatedSortedArray();
   }
 
   @Test
