@@ -28,7 +28,7 @@ import java.util.Map;
  *
  * https://www.youtube.com/watch?v=CHwgo6aZ5Wk&list=PLFdAYMIVJQHNZy3Q4MnLnCBZ9-OxOhaWY&index=17
  */
-public class C16_SortingTheSentence {
+public class C16_DF_SortingTheSentence {
 
   String sortSentence(String s) {
 

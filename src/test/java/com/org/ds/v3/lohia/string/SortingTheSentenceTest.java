@@ -6,10 +6,10 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class SortingTheSentenceTest {
 
-  private final C16_SortingTheSentence sortingTheSentence;
+  private final C16_DF_SortingTheSentence sortingTheSentence;
 
   SortingTheSentenceTest() {
-    sortingTheSentence = new C16_SortingTheSentence();
+    sortingTheSentence = new C16_DF_SortingTheSentence();
   }
 
   @Test
