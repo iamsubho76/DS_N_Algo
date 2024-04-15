@@ -5,11 +5,31 @@ package com.org.ds.v1.array;
 // A Java program to find a peak
 // element using divide and conquer
 
+import java.util.*;
+
 class D13_OnlyOnePeakElement {
     // A binary search based function
     // that returns index of a peak element
     static int findPeakUtil(
             int arr[], int low, int high, int n) {
+        List<String> linkedlist = new ArrayList<>();
+        linkedlist.add("One");
+        linkedlist.add("Two");
+        linkedlist.add("Three");
+        linkedlist.add("Four");
+
+// Create a ListIterator object
+        ListIterator<String> iterator = linkedlist.listIterator();
+
+// Iterate over the linked list in forward direction
+        while (iterator.hasNext()) {
+            System.out.println(iterator.next());
+        }
+
+// Iterate over the linked list in backward direction
+        while (iterator.hasPrevious()) {
+            System.out.println(iterator.previous());
+        }
         // Find index of middle element
         // low + (high - low) / 2
         int mid = low + (high - low) / 2;
