@@ -44,7 +44,7 @@ package com.org.ds.v1.array;
  * <p>
  * Below is the implementation of the above approach:
  */
-public class D4_FindFirstLastPositionsElementSortedArray {
+public class D4_1_FindFirstLastPositionsElementSortedArray {
     /* if x is present in arr[] then returns the index of
     FIRST occurrence of x in arr[0..n-1], otherwise
     returns -1 */

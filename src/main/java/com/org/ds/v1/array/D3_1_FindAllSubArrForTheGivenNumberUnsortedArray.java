@@ -1,6 +1,6 @@
 package com.org.ds.v1.array;
 
-public class D3_FindAllSubArrForTheGivenNumber {
+public class D3_1_FindAllSubArrForTheGivenNumberUnsortedArray {
 
     public static void find(int[] A, int currSum, int index, int sum, int[] solution) {
         if (currSum == sum) {

@@ -1,4 +1,4 @@
-package com.org.ds.v1.searching.find_the_largest_three_distinct_elements_in_an_array;
+package com.org.ds.v1.array;
 
 //https://www.geeksforgeeks.org/find-the-largest-three-elements-in-an-array/
 //Find the largest three distinct elements in an array
@@ -23,10 +23,10 @@ import java.util.Arrays;
  * Time Complexity: O(n log n)
  * Auxiliary Space: O(1)
  */
-public class FindTheLargestThreeDistinctElementsInAnArray {
+public class D13_FindTheLargestThreeDistinctElementsInAnArray {
     // Driver code
     public static void main(String[] args) {
-        FindTheLargestThreeDistinctElementsInAnArray obj = new FindTheLargestThreeDistinctElementsInAnArray();
+        D13_FindTheLargestThreeDistinctElementsInAnArray obj = new D13_FindTheLargestThreeDistinctElementsInAnArray();
         int[] arr = {12, 45, 1, -1, 45, 54, 23, 5, 0, -10};
         obj.find3largest(arr);
     }
