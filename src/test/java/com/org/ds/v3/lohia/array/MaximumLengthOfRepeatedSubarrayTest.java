@@ -6,10 +6,10 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class MaximumLengthOfRepeatedSubarrayTest {
 
-  private final C57_MaximumLengthOfRepeatedSubarray maximumLengthOfRepeatedSubarray;
+  private final C57_MaximumLengthOfASubarrayThatAppearsInBothArrays maximumLengthOfRepeatedSubarray;
 
   MaximumLengthOfRepeatedSubarrayTest() {
-    maximumLengthOfRepeatedSubarray = new C57_MaximumLengthOfRepeatedSubarray();
+    maximumLengthOfRepeatedSubarray = new C57_MaximumLengthOfASubarrayThatAppearsInBothArrays();
   }
 
   @Test

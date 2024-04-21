@@ -6,10 +6,10 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class C59LongestIncreasingSubsequenceTest {
 
-  private final C59_LongestIncreasingSubsequence c59LongestIncreasingSubsequence;
+  private final C36_2_LongestIncreasingSubsequence c59LongestIncreasingSubsequence;
 
   C59LongestIncreasingSubsequenceTest() {
-    c59LongestIncreasingSubsequence = new C59_LongestIncreasingSubsequence();
+    c59LongestIncreasingSubsequence = new C36_2_LongestIncreasingSubsequence();
   }
 
   @Test

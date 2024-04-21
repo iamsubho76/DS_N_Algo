@@ -26,7 +26,7 @@ import java.util.Map;
  *
  * https://www.youtube.com/watch?v=LvbtUMdcgbw&list=PLFdAYMIVJQHPlQ0vhbV6FVL-1dWNmJcYJ&index=37
  */
-public class C36_LongestConsecutiveSequence {
+public class C36_1_LongestConsecutiveSequence {
 
   int longestConsecutive(int[] nums) {
 

@@ -26,7 +26,7 @@ package com.org.ds.v3.lohia.array;
  * https://www.youtube.com/watch?v=Xq3hlMvhrkE&list=PLFdAYMIVJQHPlQ0vhbV6FVL-1dWNmJcYJ&index=59
  */
 // Used DP Memorization
-public class C59_LongestIncreasingSubsequence {
+public class C36_2_LongestIncreasingSubsequence {
 
   int lengthOfLIS(int[] nums) {
     

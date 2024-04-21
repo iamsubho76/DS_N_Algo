@@ -22,7 +22,7 @@ package com.org.ds.v3.lohia.array;
  */
 
 // Used DP Memorization
-public class C57_MaximumLengthOfRepeatedSubarray {
+public class C57_MaximumLengthOfASubarrayThatAppearsInBothArrays {
 
   int findLength(int[] nums1, int[] nums2) {
 

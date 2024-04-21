@@ -6,10 +6,10 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class LongestConsecutiveSequenceTest {
 
-  private final C36_LongestConsecutiveSequence longestConsecutiveSequence;
+  private final C36_1_LongestConsecutiveSequence longestConsecutiveSequence;
 
   LongestConsecutiveSequenceTest() {
-    longestConsecutiveSequence = new C36_LongestConsecutiveSequence();
+    longestConsecutiveSequence = new C36_1_LongestConsecutiveSequence();
   }
 
   @Test
