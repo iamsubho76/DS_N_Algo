@@ -1,5 +1,23 @@
 package com.org.ds.v1.tree.red_black_tree;
 
+/**
+ * Introduction:
+ * When it comes to searching and sorting data, one of the most fundamental data structures is the binary search tree.
+ * However, the performance of a binary search tree is highly dependent on its shape, and in the worst case, it can degenerate into a
+ * linear structure with a time complexity of O(n). This is where Red Black Trees come in, they are a type of balanced binary search
+ * tree that use a specific set of rules to ensure that the tree is always balanced. This balance guarantees that the time complexity
+ * for operations such as insertion, deletion, and searching is always O(log n), regardless of the initial shape of the tree.
+ *
+ * Red Black Trees are self-balancing, meaning that the tree adjusts itself automatically after each insertion or deletion operation.
+ * It uses a simple but powerful mechanism to maintain balance, by coloring each node in the tree either red or black.
+ *
+ * Red Black Tree-
+ *
+ * Red-Black tree is a binary search tree in which every node is colored with either red or black. It is a type of self balancing binary
+ * search tree. It has a good efficient worst case running time complexity.
+ *
+ * https://www.geeksforgeeks.org/introduction-to-red-black-tree/?ref=shm
+ */
 public class RedBlackTree {
 
 	private Node root;

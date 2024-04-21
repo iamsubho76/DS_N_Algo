@@ -1,5 +1,12 @@
 package com.org.ds.v1.tree.avl;
 
+/**
+ * The difference between the heights of the left subtree and the right subtree for any node is known as the balance factor of the node.
+ *
+ * The AVL tree is named after its inventors, Georgy Adelson-Velsky and Evgenii Landis, who published it in their 1962 paper “An algorithm for the organization of information”.
+ *
+ * https://www.geeksforgeeks.org/introduction-to-avl-tree/
+ */
 
 public class AvlTree implements Tree {
 
